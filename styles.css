@@ -77,7 +77,33 @@ body {
     border: 2px solid #d301c5; 
   
 }
+.likes{
+    padding-left: 5px;
+    padding-top: 15px ;
+    padding-bottom: 10px;
+}
+.comments{
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color:#959595;
+}
+.caption{
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+.additional-comment{
+    padding-left: 5px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+hr{
+    color:#959595;
+    width: 65%;
 
+}
 
 .card-title{
    padding:10px;
