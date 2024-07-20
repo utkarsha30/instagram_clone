@@ -69,12 +69,15 @@ body {
 }
 .card-img{
     width: 50px;
+    height: 50px;
     border-radius: 50%;
+    padding: 2px;
 }
 .selected-card-img{
     border: 2px solid #d301c5; 
-    padding: 2px;
+  
 }
+
 
 .card-title{
    padding:10px;
@@ -125,14 +128,26 @@ body {
 .story img{
     width: 70px;
     height: 70px;
-    border: 2px solid #d301c5; 
+
     padding: 2px;
     border-radius: 50%;
+}
+.story-seen{
+    border: 2px solid #a19b9b; 
+}
+.story-unseen{
+    border: 2px solid #d301c5; 
+}
+.story-text-seen{
+    color:#a19b9b;
 }
 
 .post{
    display: flex;
+   flex-direction: column;
    justify-content: space-around;
+   align-items: center;
+
 }
 .footer-links a{
     font-weight: 100;
@@ -159,6 +174,7 @@ body {
 .card-post {
     width: 500px;
     height: 500px;
+
 }
 .card-title div {
     display: flex;
@@ -169,6 +185,6 @@ body {
     padding-right: 5px;
 }
 .interactions{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 }
